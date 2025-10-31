@@ -72,13 +72,13 @@ O desenvolvimento foi dividido em **seis semanas**, seguindo uma metodologia **�
 
 ## 🧑‍💻 Equipe de Desenvolvimento — *Chainsaw Turtle*
 
-| Membro | Função | Responsabilidades |
-| :--- | :--- | :--- |
-| **Emílio Favoretto** | Scrum Master | Coordenação do time e controle das sprints |
-| **Murilo Milan** | Product Owner | Organização dos requisitos e visão do produto |
-| **Victor Ferreira** | Dev Team | Desenvolvimento e integração do front-end |
-| **Pedro Otávio** | Dev Team | Estrutura e lógica do back-end |
-| **Maria de Andrade** | Dev Team | Integração com banco de dados e testes |
-| **Ana Cremasco** | Dev Team | Design e estilização das páginas |
-| **Murilo Brustolin** | Dev Team | Implementação de validações e filtros |
+| Membro | Função |
+| :--- | :--- |
+| **Emílio Favoretto** | Scrum Master |
+| **Murilo Milan** | Product Owner |
+| **Victor Ferreira** | Dev Team |
+| **Pedro Otávio** | Dev Team |
+| **Maria de Andrade** | Dev Team |
+| **Ana Cremasco** | Dev Team |
+| **Murilo Brustolin** | Dev Team |
 
