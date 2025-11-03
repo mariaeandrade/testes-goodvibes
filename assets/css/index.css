@@ -1,0 +1,40 @@
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ED8CC6;
+}
+
+.logo-goodvibes {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #821957
+}
+
+
+.mural {
+    color: #D52D00;
+}
+ 
+.texto-inicial {
+    color: #821957
+ }
+
+ .subtexto {
+    color:#C84794 ;
+ }
+
+ .mural,
+ .texto-inicial,
+ .subtexto {
+    margin-left: 20px;
+ }
