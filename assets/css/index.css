@@ -11,19 +11,25 @@ body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ED8CC6;
+    font-size: xx-large;
 }
 
 .logo-goodvibes {
   margin-bottom: 100px;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 250px;
   color: #821957
+}
+
+.imagem {
+    font-size: 26px;
+    font-weight: bold;
 }
 
 
 .mural {
     color: #D52D00;
-}
+font-weight: bolder;}
  
 .texto-inicial {
     color: #821957
@@ -31,17 +37,30 @@ body {
 
  .subtexto {
     color:#C84794 ;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 350px;
+ }
+ .subtexto-2 {
+    color:#C84794 ;
+    font-weight: bold;
+    margin-left: 350px;
  }
 
+
  .mural,
- .texto-inicial,
- .subtexto {
-    margin-left: 20px;
+ .texto-inicial{
+    margin-left: 190px;
+ }
+
+ .mural-destaque {
+    color: #D52D00;
+    font-weight: bold; 
  }
 
 
  .container-lateral {
-    width: 400px;
+    width: 700px;
     height: 960px;
     position: absolute;
     right: 0;
@@ -66,7 +85,7 @@ body {
   }
   
   .c1 {
-    width: 300px;
+    width: 400px;
     height: 500px;
     top: -50px;
 
@@ -74,13 +93,13 @@ body {
   
   .c2 {
     bottom: 150px;  
-      width: 400px;
+      width: 500px;
       height: 500px;
       
   }
   
   .c3 {
-    width: 300px;
+    width: 400px;
     height: 300px;
     bottom: -30px;
   }
