@@ -63,4 +63,14 @@ body {
     margin: 35px;
     margin-left: 35px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco2 {
+    width: 1160px;
+    height: 540px;
+    background-color: #F2B6DC;
+    border-radius: 10px;
 }
