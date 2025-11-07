@@ -24,7 +24,7 @@ body {
 .goodvibes {
     color: #F19559;
     align-items: center;
-    display: ;
+    display: flex;
     padding-right: 1000px;
 }
 
@@ -56,4 +56,11 @@ body {
     margin-top: 5px;
 }
 
-
+.blococentral {
+    width: 1200px;
+    height: 600px;
+    background-color: #D162A4;
+    margin: 35px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
