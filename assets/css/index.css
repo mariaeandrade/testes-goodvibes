@@ -26,12 +26,23 @@ header {
   z-index: 2;
 }
 
-.logo-goodvibes {
-  color: #821957;
-  font-size: 2.2rem;
+
+.goodvibes {
+    color: #821957;
+    align-items: center;
+    display: flex ;
+    color: #821957;
+  font-size: 2rem;
   font-weight: bold;
+   margin-bottom: 0px;
+   align-items: start;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 .texto-inicial {
   color: #821957;
