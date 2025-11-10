@@ -1,77 +1,155 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-   background: #821957;
-   font-family: Arial, Helvetica, sans-serif;
+  background: #821957;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5A0033;
 }
 
+/* ===== Cabeçalho ===== */
 .logo-container {
-    justify-content: space-between;
-   display: flex;
-  align-items: center; 
-  gap: 10px
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
 }
 
 .logo {
-   margin-bottom: 0px;
-   align-items: start;
-
+  height: 60px;
 }
 
 .goodvibes {
-    color: #F19559;
-    align-items: center;
-    display: flex;
-    padding-right: 1000px;
+  color: #F19559;
+  font-size: 28px;
 }
 
 .perfil {
-    color: #F19559;
-    align-items: center;
-    justify-content: center;
-    display: flexbox;
+  color: #F19559;
+  text-align: center;
 }
 
 .bloco {
-    width: 230px;
-    height: 120;
-    background-color: #d9d9d94b;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 9%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 230px;
+  height: 60px;
+  background-color: #d9d9d94b;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .barra {
-    width: 100%;
-    height: 4px;
-    background-color: #D162A4;
-    margin-top: 5px;
+  width: 100%;
+  height: 4px;
+  background-color: #D162A4;
+  margin-top: 5px;
 }
 
+/* ===== Área Central ===== */
 .blococentral {
-    width: 1200px;
-    height: 600px;
-    background-color: #D162A4;
-    margin: 35px;
-    margin-left: 35px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 1200px;
+  height: 600px;
+  background-color: #D162A4;
+  margin: 40px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bloco2 {
-    width: 1160px;
-    height: 540px;
-    background-color: #F2B6DC;
-    border-radius: 10px;
+  width: 1160px;
+  height: 540px;
+  background-color: #F2B6DC;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* ===== Tema Switch ===== */
+.tema-switch {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d48dbb;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #821957;
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+.label-text {
+  font-size: 16px;
+}
+
+/* ===== Texto ===== */
+.tamanho-fonte {
+  background-color: #f7dff0;
+  border-radius: 15px;
+  width: 220px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.tamanho-fonte p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tamanho-fonte label {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tamanho-fonte input[type="radio"] {
+  accent-color: #821957;
 }
