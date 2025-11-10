@@ -130,7 +130,6 @@ input:checked + .slider:before {
   font-size: 16px;
 }
 
-/* ===== Texto ===== */
 .tamanho-fonte {
   background-color: #f7dff0;
   border-radius: 15px;
@@ -152,4 +151,5 @@ input:checked + .slider:before {
 
 .tamanho-fonte input[type="radio"] {
   accent-color: #821957;
+  
 }
