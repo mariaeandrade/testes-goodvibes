@@ -10,23 +10,22 @@ body {
 }
 
 .logo-container {
-    justify-content: space-between;
    display: flex;
-  align-items: center; 
-  gap: 10px
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
 }
 
 .logo {
    margin-bottom: 0px;
    align-items: start;
-
 }
 
 .goodvibes {
     color: #F19559;
     align-items: center;
     display: flex;
-    padding-right: 1000px;
+    padding-right: 870px;
 }
 
 .novo {
@@ -77,4 +76,6 @@ body {
     padding: 20px;
     font-weight: bold;
 }
+
+
 
