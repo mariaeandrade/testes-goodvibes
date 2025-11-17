@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 body {
@@ -10,23 +12,22 @@ body {
 }
 
 .logo-container {
-    justify-content: space-between;
+   justify-content: space-between;
    display: flex;
-  align-items: center; 
-  gap: 10px
+   align-items: center; 
+   gap: 10px
 }
 
 .logo {
    margin-bottom: 0px;
    align-items: start;
-
 }
 
 .goodvibes {
     color: #F19559;
     align-items: center;
     display: flex;
-    padding-right: 1000px;
+    padding-right: 88%;
 }
 
 .novo {
@@ -45,7 +46,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 9%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -58,8 +59,8 @@ body {
 }
 
 .blococentral {
-    width: 1200px;
-    height: 600px;
+    width: 96%;
+    height: 80vh;
     background-color: #D162A4;
     margin: 35px;
     margin-left: 35px;
@@ -70,11 +71,17 @@ body {
 }
 
 .bloco2 {
-    width: 400px;
-    height: 400px;
+    width: 60vh;
+    height: 60vh;;
     background-color: #f2eeb6;
     border-radius: 5px;
     padding: 20px;
     font-weight: bold;
+}
+
+#certo {
+    position: absolute;
+    top: 86%;
+    right:5%;
 }
 
