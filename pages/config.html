@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Configuração de conta</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoodVibes - Configurações</title>
+  <link rel="stylesheet" href="./../assets/css/config.css">
 </head>
 <body>
-    
+  <header>
+    <div class="logo-container">
+      <img class="logo" src="./../assets/img/logo-clara2.png" alt="Logo GoodVibes">
+      <h1 class="goodvibes">GoodVibes</h1>
+      <div class="bloco">
+        <h1 class="perfil">Configuração</h1>
+      </div>
+    </div>
+    <div class="barra"></div>
+  </header>
+
+  <main>
+    <div class="blococentral">
+      <div class="bloco2">
+        <section class="temas">
+          <h2>Temas</h2>
+          <div class="tema-switch">
+            <label class="switch">
+              <input type="checkbox" id="tema">
+              <span class="slider"></span>
+            </label>
+            <span class="label-text">Mudar para tema escuro</span>
+          </div>
+        </section>
+
+        <section class="texto">
+          <h2>Texto</h2>
+          <div class="tamanho-fonte">
+            <p>Tamanho da fonte</p>
+            <label><input type="radio" name="fonte" checked> <h6>Pequeno</h6></label><br>
+            <label><input type="radio" name="fonte"> <h4>Médio</h4></label><br>
+            <label><input type="radio" name="fonte"> <h2>Grande</h2></label>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
