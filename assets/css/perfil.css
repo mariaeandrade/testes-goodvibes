@@ -9,10 +9,10 @@ body {
 }
 
 .logo-container {
-    justify-content: space-between;
-   display: flex;
-  align-items: center; 
-  gap: 10px
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
 }
 
 .logo {
@@ -23,9 +23,9 @@ body {
 
 .goodvibes {
     color: #F19559;
-    align-items: center;
     display: flex;
-    padding-right: 1000px;
+    align-items: center;
+    padding-right: 0;
 }
 
 .perfil {
@@ -84,12 +84,13 @@ body {
     margin-top: 30px;
     background-image: linear-gradient(  #ED8CC6, #CE539C, #A30262 );
     box-shadow: 10px 5px 5px 0px rgba(10px, 0, 0, 0.3);
+    margin: 30px auto 0 auto;
 }
 
 #perfil {
-    margin-left: 455px;
-    position: relative; 
-    top: -225px;
+     margin-left: 0;
+    display: block;
+    margin: -225px auto 0 auto;
 }
 .container {
   display: flex;
@@ -106,7 +107,7 @@ body {
   flex-direction: column;
   width: 280px;
   position: relative; 
-  top: -250px;
+  top: -50px;
   margin-left: 30px;
 }
 
@@ -121,9 +122,10 @@ body {
   background: white;
   border-radius: 15px;
   padding: 8px 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   outline: none;
   font-size: 14px;
+
   
 }
 
@@ -136,13 +138,15 @@ body {
   width: 200px;
   margin-left: 500px;
   position: relative;
-  top: -300px;
+  top: -50px;
 }
 
 .anonimo-box p {
   margin: 0 0 10px 0;
   color: #000;
   font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .switch {
@@ -202,6 +206,7 @@ footer {
     padding-top: 60px;
 }
 
-.engrenagem {
-
+#engrenagem {
+ margin-left: 880px;
+ color: #F19559;
 }
