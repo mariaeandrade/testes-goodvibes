@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
   color: #f19559;
   align-items: center;
   display: flex;
-  padding-right: 1630px;
+  padding-right: 85%;
 }
 
 .mural {
@@ -44,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 6%;
+  top: 4%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -57,8 +58,8 @@ body {
 }
 
 .blococentral {
-  width: 1850px;
-  height: 750px;
+  width: 96%;
+  height: 84vh;
   background-color: #d162a4;
   margin: 35px;
   margin-left: 35px;
@@ -67,13 +68,13 @@ body {
 
 .blocos-container {
   display: grid;
-  grid-template-columns: repeat(4, 180px);
-  grid-template-rows: repeat(2, 230px);
-  gap: 90px;
+  grid-template-columns: repeat(4, 27vh);
+  grid-template-rows: repeat(2, 30vh);
+  gap: 15%;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 55%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -25%);
 }
@@ -86,11 +87,9 @@ body {
 .bloco-6,
 .bloco-7,
 .bloco-8 {
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-  margin-bottom: 270px;
-  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
 
 .bloco-1 {
@@ -116,4 +115,13 @@ body {
 }
 .bloco-8 {
   background-color: #a9ebff;
+}
+
+.perfil {
+   color: #f19559;
+}
+
+.mais {
+  margin-left: 94%;
+  margin-top: 75vh;
 }
